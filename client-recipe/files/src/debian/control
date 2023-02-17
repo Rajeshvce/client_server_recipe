@@ -1,0 +1,14 @@
+Source: client-recipe
+Section: misc
+Priority: optional
+Maintainer: Baurzhan Ismagulov <ibr@radix50.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/ilbers/hello
+
+Package: client-recipe
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Client Recipe
+ Sample application that can be used as a skeleton
+
